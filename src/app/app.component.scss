@@ -1,0 +1,46 @@
+section {
+  max-width: 600px;
+  width: 100%;
+
+  background-color: var(--darkGrayishBlue);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 40px 40px 0 40px;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 12px;
+  color: var(--neonGreen);
+  letter-spacing: 6px;
+}
+
+p {
+  font-size: 28px;
+  color: var(--lightCyan);
+  text-align: center;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: var(--neonGreen);
+  border: none;
+  transform: translateY(25px);
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: var(--grayishBlue);
+}
+
+button:hover {
+  box-shadow: var(--neonGreen) 0px 0px 15px;
+  transition: box-shadow 200ms ease-in-out;
+}
