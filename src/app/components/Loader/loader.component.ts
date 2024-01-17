@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'loader',
   standalone: true,
-  template: `<img src="../../assets/loading.svg" alt="">`,
+  template: `<img src="../../assets/loading.svg" alt="" data-testid="loader">`,
   styles: `
     @keyframes rotate{
       to{ transform: rotate(360deg); }
