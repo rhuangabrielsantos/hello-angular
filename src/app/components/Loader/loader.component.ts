@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     img {
       animation: rotate 1.5s linear infinite;
       width: 50px;
-      heigth: 50px;
+      height: 50px;
     }
   `
 })
